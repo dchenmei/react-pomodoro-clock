@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Pomo from './Pomo';
-import './App.css';
+import Pomo from '../components/Pomo';
+import './PomoApp.css';
 
 class App extends Component {
   render() {
