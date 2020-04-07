@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/PomoApp';
+import App from './components/PomoApp';
 import './index.css';
 
 ReactDOM.render(
