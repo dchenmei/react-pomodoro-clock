@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Pomo from '../components/Pomo';
+import  ControlPomo from '../containers/ControlPomo';
 import './PomoApp.css';
 
-class App extends Component {
+class PomoApp extends Component {
   render() {
     return (
-      <div className="App">
-        <Pomo />
+      <div className="PomoApp">
+        <ControlPomo />
       </div>
     );
   }
 }
 
-export default App;
+export default PomoApp;
