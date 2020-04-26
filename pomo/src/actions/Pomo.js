@@ -3,8 +3,9 @@
 // Start stop clock
 const TOGGLE_POMO = 'TOGGLE_POMO';
 
-export const togglePomo = () => ({
-    type: TOGGLE_POMO
+export const togglePomo = (newTime) => ({
+    type: TOGGLE_POMO,
+    newTime
 });
 
 // Adjust POMO length

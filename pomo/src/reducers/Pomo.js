@@ -10,9 +10,14 @@ const pomoReducer = (state = defaultState, action) => {
     switch (action.type) {
         case 'TOGGLE_POMO': // replace this with const
             console.log("am toggled");
-            return {
-                status: 'running'
-            };
+            if (state.status === 'running') {
+                return {
+                    time: action.newTime,
+                    status: 'paused'
+                }
+            } else {
+                return { status: 'running' };
+            }
         default:
             return state;
     }
